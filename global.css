@@ -26,7 +26,7 @@ body {
   --text-gray-300: #d9dbe1;
   --text-gray-900: #18191f;
   --neutral-silver: #f5f7fa;
-  --brand-primary: #4caf4f;
+  --brand-primary: #4c87af;
   --color-forestgreen-100: #339636;
   --color-forestgreen-200: rgba(76, 175, 79, 0.3);
   --neutral-grey: #717171;
@@ -79,4 +79,8 @@ body {
   --br-7xs-6: 5.6px;
   --br-10xs-8: 2.8px;
   --br-9xs-5: 3.5px;
+}
+
+a {
+  all: unset;
 }

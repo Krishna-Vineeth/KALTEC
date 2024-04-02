@@ -23,7 +23,7 @@
   font-size: large;
 }
 .companyTitle .titleKAL {
-  color: var(--color-forestgreen-100);
+  color: var(--brand-primary);
 }
 .why-justgo {
   flex: 1;
@@ -269,6 +269,7 @@
   height: 283.3px;
   width: 272.2px;
   position: relative;
+  filter: hue-rotate(60deg);
 }
 .hero-section {
   align-self: stretch;
@@ -935,6 +936,47 @@
   padding: 44.54844665527344px 100.2340087890625px;
   gap: var(--gap-xl);
 }
+
+.achievements .core {
+  width: 100%;
+}
+
+.achievements .core .person {
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.person .personImage {
+  object-fit: contain;
+  height: 100%;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.person .personAbout {
+  max-width: 85%;
+  font-size: var(--font-size-xs-1);
+}
+
+.person .personAbout .personTitle {
+  margin-bottom: 1rem;
+}
+
+.person .personAbout .personTitle .name {
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+}
+
+.person .personAbout .personTitle .role {
+  font-size: var(--font-size-xl);
+}
+
+
 .background-simple {
   align-self: stretch;
   align-items: flex-start;
