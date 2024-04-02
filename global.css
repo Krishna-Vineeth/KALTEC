@@ -27,8 +27,8 @@ body {
   --text-gray-900: #18191f;
   --neutral-silver: #f5f7fa;
   --brand-primary: #4c87af;
-  --color-forestgreen-100: #339636;
-  --color-forestgreen-200: rgba(76, 175, 79, 0.3);
+  --color-forestgreen-100: rgb(29, 94, 100);
+  --color-forestgreen-200: rgba(76, 132, 175, 0.3);
   --neutral-grey: #717171;
   --neutral-d-grey: #4d4d4d;
   --neutral-l-grey: #88939e;
