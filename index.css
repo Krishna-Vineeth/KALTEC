@@ -2199,10 +2199,33 @@
   }
   .achievements,
   .logo1 {
-    padding-left: var(--padding-31xl);
-    padding-right: var(--padding-31xl);
+    /* padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
   }
+
+  .core .person {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .core .person .personImage {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+  }
+
+  .core .person .personAbout .personTitle .name {
+    font-size: var(--font-size-xl);
+  }
+
+  .core .person .personAbout .personRole .role {
+    font-size: var(--font-size-8xl);
+  }
+
   .parent-footer,
   .vector {
     flex: 1;
