@@ -271,6 +271,11 @@
   position: relative;
   filter: hue-rotate(60deg);
 }
+
+.missionIcon {
+  filter: hue-rotate(80deg);
+}
+
 .hero-section {
   align-self: stretch;
   background-color: var(--neutral-silver);

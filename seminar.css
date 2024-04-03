@@ -3,14 +3,29 @@ body {
     font-size: var(--font-size-6xl-1);
     color: var(--neutral-d-grey);
     font-family: var(--font-inter);
-    overflow: hidden;
 }
 
-header {
-    all: unset;
-}
 
-img {
+.header {
+    align-self: stretch;
+    background-color: var(--neutral-white);
+    box-shadow: 0 2.8px 5.57px rgba(171, 190, 209, 0.4);
+    justify-content: space-between;
+    padding: 11.13711166381836px var(--padding-xl);
+    box-sizing: border-box;
+    gap: 3rem;
+    top: 0;
+    z-index: 99;
+    position: fixed;
     width: 100vw;
-    object-fit: contain;
+    text-align: center;
+    font-size: var(--font-size-xs-1);
+    color: var(--neutral-d-grey);
+    font-family: var(--font-inter);
+}
+  
+
+.seminar {
+    width: 100vw;
+    overflow: hidden;
 }
