@@ -2186,6 +2186,11 @@
   .header-menu {
     display: none;
   }
+
+  .hamburger-menu {
+    align-items: flex-end;
+  }
+
   .lessons-and-insights-container {
     font-size: var(--font-size-17xl);
     line-height: 42px;
@@ -2210,6 +2215,7 @@
   .core .person {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0;
   }
 
   .core .person .personImage {
