@@ -3,4 +3,14 @@ body {
     font-size: var(--font-size-6xl-1);
     color: var(--neutral-d-grey);
     font-family: var(--font-inter);
+    overflow: hidden;
+}
+
+header {
+    all: unset;
+}
+
+img {
+    width: 100vw;
+    object-fit: contain;
 }
